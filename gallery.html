@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Photo Gallery</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <span class="material-symbols-outlined"> photo_library </span>
+      <div class="filter">
+        <button id="allbtn">All</button>
+        <button id="naturebtn">Nature</button>
+        <button id="citybtn">City</button>
+        <button id="sportbtn">Sport</button>
+        <button class="background-toggle">Dark Mode</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="gallery">
+        <div class="image" id="nature">
+          <img src="/photos/nature1.jpeg" alt="Nature" />
+        </div>
+        <div class="image" id="city">
+          <img src="/photos/city1.jpeg" alt="Toronto" />
+        </div>
+        <div class="image" id="sport">
+          <img src="/photos/sport1.jpeg" alt="Soccer" />
+        </div>
+        <div class="image" id="nature">
+          <img src="/photos/nature2.jpeg" alt="Nature" />
+        </div>
+        <div class="image" id="nature">
+          <img src="/photos/nature3.jpeg" alt="Nature" />
+        </div>
+        <div class="image" id="city">
+          <img src="/photos/city2.jpeg" alt="HongKong" />
+        </div>
+        <div class="image" id="city">
+          <img src="/photos/city3.jpeg" alt="ShangHai" />
+        </div>
+        <div class="image" id="sport">
+          <img src="/photos/sport2.jpeg" alt="Basketball" />
+        </div>
+        <div class="image" id="sport">
+          <img src="/photos/sport3.jpeg" alt="Hockey" />
+        </div>
+      </div>
+    </div>
+
+    <div class="lightbox">
+      <span class="close"> Close </span>
+      <img class="lightbox-img" src="" alt="" />
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
